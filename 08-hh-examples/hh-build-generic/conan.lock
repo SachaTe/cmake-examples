@@ -1,0 +1,25 @@
+{
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "ref": "cv-engine/1.14",
+    "options": "build_type_override=None\nenable_code_analysis=None\nfmt:fPIC=True\nfmt:header_only=False\nfmt:shared=False\nfmt:with_fmt_alias=False\nfmt:with_os_api=True",
+    "requires": [
+     "1"
+    ],
+    "path": "conanfile.py",
+    "context": "host"
+   },
+   "1": {
+    "ref": "fmt/9.1.0#811e918ca4b4e0b9ddd6d5a2883efa82",
+    "options": "fPIC=True\nheader_only=False\nshared=False\nwith_fmt_alias=False\nwith_os_api=True",
+    "package_id": "d13740ec61363b98cb3acf119e5371c6c9b36983",
+    "prev": "dc05fc4463705e16a855f04acc49a562",
+    "context": "host"
+   }
+  },
+  "revisions_enabled": true
+ },
+ "version": "0.4",
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=apple-clang\ncompiler.libcxx=libc++\ncompiler.version=14.0\nos=Macos\nos_build=Macos\n[options]\n[build_requires]\n[env]\n"
+}
